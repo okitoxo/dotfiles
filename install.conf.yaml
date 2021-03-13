@@ -4,3 +4,5 @@
 - link:
     ~/.tmux.conf: tmux/tmux.conf  
     ~/.gitconfig: git/gitconfig
+    ~/.zshrc: zsh/zshrc
+    ~/.zshenv: zsh/zshenv
