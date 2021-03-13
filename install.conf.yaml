@@ -3,3 +3,4 @@
       relink: true
 - link:
     ~/.tmux.conf: tmux/tmux.conf  
+    ~/.gitconfig: git/gitconfig

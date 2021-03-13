@@ -1,0 +1,8 @@
+[user]
+	name = Eduardo Quiñonez
+	email = okitoxo@gmail.com
+	signingkey = D5D780D8116BE70F
+[core]
+	editor = vim
+[commit]
+	gpgsign = true
