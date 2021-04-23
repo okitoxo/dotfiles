@@ -7,3 +7,6 @@
     ~/.zshrc: zsh/zshrc
     ~/.zshenv: zsh/zshenv
     ~/.config/nvim/init.vim: neovim/init.vim
+    ~/.config/nvim/general.vim: neovim/general.vim
+    ~/.config/nvim/plugins.vim: neovim/plugins.vim
+    ~/.config/nvim/keys.vim: neovim/keys.vim
