@@ -6,3 +6,4 @@
     ~/.gitconfig: git/gitconfig
     ~/.zshrc: zsh/zshrc
     ~/.zshenv: zsh/zshenv
+    ~/.config/nvim/init.vim: neovim/init.vim

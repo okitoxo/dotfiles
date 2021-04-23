@@ -6,3 +6,7 @@ plugins=(git zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
+# Alias
+alias gcode='cd ~/Code'
+alias gvtex='cd ~/Code/globant/FrontEnd-VTEX'
+alias v='nvim'

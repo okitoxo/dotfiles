@@ -8,3 +8,7 @@ set shiftwidth=2    " Indents will have a width of 4
 set softtabstop=2   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
+call plug#begin(stdpath('data') . '/plugged')
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+call plug#end()
+
