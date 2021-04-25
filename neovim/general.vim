@@ -9,7 +9,11 @@ set expandtab
 
 set number
 
-set t_Co=256
 set laststatus=2
 
 set hidden
+
+" Save all when lost focus
+:au FocusLost * silent! wa
+
+set cursorline

@@ -3,6 +3,8 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 
+Plug 'Yggdroot/indentLine'
+
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
