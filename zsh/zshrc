@@ -9,4 +9,8 @@ source $ZSH/oh-my-zsh.sh
 # Alias
 alias gcode='cd ~/Code'
 alias gvtex='cd ~/Code/globant/FrontEnd-VTEX'
+
+# Vim Aliases
 alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
