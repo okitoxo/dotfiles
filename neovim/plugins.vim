@@ -1,10 +1,14 @@
 call plug#begin(stdpath('data') . '/plugged')
+" Default values
+Plug 'tpope/vim-sensible'
 " Visual
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 
+" Indentation style
 Plug 'Yggdroot/indentLine'
 
+" Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -34,32 +38,10 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
-
-set termguicolors     " enable true colors support
-set background=light
-colorscheme gruvbox
-let g:gruvbox_contrast_light = 'hard'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#branch#format = 2
-
-let NERDTreeShowHidden = 1
-
-" Git
-set updatetime=100
-
-" Coc
-autocmd CursorHold * silent call CocActionAsync('highlight')
-" GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-
-set cmdheight=2
-
-" Prettier command
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
