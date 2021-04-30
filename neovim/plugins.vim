@@ -4,6 +4,7 @@ Plug 'tpope/vim-sensible'
 " Visual
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
+Plug 'psliwka/vim-smoothie'
 
 " Indentation style
 Plug 'Yggdroot/indentLine'
@@ -38,6 +39,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
+" Fzf
+" Install bat for highlight syntax https://github.com/sharkdp/bat/releases
+" Install Ag to searcher https://github.com/ggreer/the_silver_searcher
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
