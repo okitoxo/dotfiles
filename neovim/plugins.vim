@@ -3,6 +3,8 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'tpope/vim-sensible'
 " Visual
 Plug 'morhetz/gruvbox'
+Plug 'rakr/vim-one'
+Plug 'joshdick/onedark.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'psliwka/vim-smoothie'
 
@@ -31,8 +33,10 @@ let g:coc_global_extensions = [
     \'coc-pairs']
 
 " Javascript syntax
+" Plug 'pangloss/vim-javascript'
 Plug 'yuezk/vim-js'
-Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
+" Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 
 " Git

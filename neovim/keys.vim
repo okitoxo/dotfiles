@@ -1,8 +1,8 @@
 let mapleader = " "
 
 " NERDTree
-map ge :NERDTreeToggle<CR>
-map <leader>r :NERDTreeFind<cr>
+map <leader>e :NERDTreeFocus<CR>
+map <leader>r :NERDTreeFind<CR>
 
 " Buffer navigation
 nnoremap <C-n> :bnext<CR>
@@ -23,3 +23,11 @@ nmap <silent> gr <Plug>(coc-references)
 nnoremap <Leader>f :Prettier<CR>
 " nmap <leader>f  <Plug>(coc-format-selected)
 
+" Faster scrolling
+nnoremap <C-j> 10<C-e>
+nnoremap <C-k> 10<C-y>
+nmap <Leader>s <Plug>(easymotion-s)
+
+" Document
+nnoremap <Leader>w :wa<CR>
+nnoremap <Leader>q :q<CR>
